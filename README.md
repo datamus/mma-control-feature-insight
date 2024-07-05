@@ -1,7 +1,7 @@
 # UFC Fight Outcome Prediction
 
 ## Introduction
-Predicting fight outcomes using only two features might seem unconventional, but this project is designed as a thought experiment and a bit of fun. Control time is a crucial aspect of the fight game, often stirring controversy. Despite causing no direct damage, shifts in control can significantly influence referees' opinions and swing the fight in unexpected directions. This project aims to explore the predictive power of control time statistics in determining UFC fight outcomes.
+Predicting fight outcomes with only two features might seem unconventional, but this project serves as a thought experiment and a bit of fun to explore the predictive power of machine learning models in the context of mixed martial arts (MMA). Control time is a crucial aspect of the fight game, often stirring controversy due to its significant influence on referees' decisions. Control can dramatically sway the outcome of a fight, even when no apparent damage is inflicted. This project not only aims to predict fight outcomes using control metrics but also seeks to identify which prediction method yields the best results, paving the way for a deeper analysis in the future.
 
 ## Experiment Setup
 - **Data**: The dataset contains information about UFC fights, including average control time and average control time against for each fighter.
@@ -23,5 +23,4 @@ We evaluated the following machine learning models:
 
 ## Hyperparameter Tuning and Cross-Validation
 - **Hyperparameter Tuning**: We used `GridSearchCV` to perform hyperparameter tuning for each model.
-- **Cross-Validation**: 5-fold cross-validation was used to evaluate the models.
 - **Cross-Validation**: 5-fold cross-validation was used to evaluate the models.
