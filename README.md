@@ -22,5 +22,6 @@ We evaluated the following machine learning models:
 7. Neural Networks
 
 ## Hyperparameter Tuning and Cross-Validation
-- **Hyperparameter Tuning**: We used `GridSearchCV` to perform hyperparameter tuning for each model.
-- **Cross-Validation**: 5-fold cross-validation was used to evaluate the models.
+- **Hyperparameter Setting**: I manually set specific hyperparameters for each model without performing cross-validation.
+- **Model Evaluation**: Each model was trained on the training dataset and evaluated on the test dataset to calculate accuracy.
+- **Reason for Predefined Training and Test Sets:** We predefined the training and test sets to facilitate backtesting of the models against the test set. This approach allows us to determine the overall Profit and Loss (PNL) of the models, ensuring a more realistic evaluation of their performance in a trading context.
