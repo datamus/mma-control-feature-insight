@@ -25,3 +25,22 @@ We evaluated the following machine learning models:
 - **Hyperparameter Setting**: I manually set specific hyperparameters for each model without performing cross-validation.
 - **Model Evaluation**: Each model was trained on the training dataset and evaluated on the test dataset to calculate accuracy.
 - **Reason for Predefined Training and Test Sets:** We predefined the training and test sets to facilitate backtesting of the models against the test set. This approach allows us to determine the overall Profit and Loss (PNL) of the models, ensuring a more realistic evaluation of their performance in a trading context.
+
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|c|}
+\hline
+\textbf{Model} & \textbf{Accuracy} \\
+\hline
+Logistic Regression & 0.544 \\
+Random Forest & 0.552 \\
+Support Vector Machine & 0.562 \\
+K-Nearest Neighbors & 0.548 \\
+Gradient Boosting & 0.556 \\
+Naive Bayes & 0.564 \\
+\hline
+\end{tabular}
+\caption{Model Accuracy Results}
+\label{tab:results}
+\end{table}
