@@ -27,6 +27,8 @@ We evaluated the following machine learning models:
 - **Reason for Predefined Training and Test Sets:** We predefined the training and test sets to facilitate backtesting of the models against the test set. This approach allows us to determine the overall Profit and Loss (PNL) of the models, ensuring a more realistic evaluation of their performance in a trading context.
 
 ## Results
+<div style="text-align: center;">
+
 | Model                   | Accuracy |
 |-------------------------|----------|
 | Logistic Regression     | 0.544    |
@@ -35,3 +37,5 @@ We evaluated the following machine learning models:
 | K-Nearest Neighbors     | 0.548    |
 | Gradient Boosting       | 0.556    |
 | Naive Bayes             | 0.564    |
+
+</div>
